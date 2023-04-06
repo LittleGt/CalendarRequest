@@ -2,16 +2,16 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 
-const categoryRoute = require('./routes/categoryRoute');
-const transactionRoute = require('./routes/transactionRoute');
+const personRoute = require('./routes/personRoute');
+const requestRoute = require('./routes/requestRoute');
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
-app.use('/categories', categoryRoute);
-app.use('/transactions', transactionRoute);
+app.use('/persons', personRoute);
+app.use('/requests', requestRoute);
 
 app.use((req, res) => {
   res.status(404).json({ message: 'resource not found on this server' });
