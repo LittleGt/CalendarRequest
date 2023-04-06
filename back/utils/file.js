@@ -1,15 +1,15 @@
 const { readFile, writeFile } = require('fs/promises');
 
-exports.getCategory = async () => {
-  const data = await readFile('dbs/category.json');
+exports.getPerson = async () => {
+  const data = await readFile('dbs/person.json');
   return JSON.parse(data);
 };
 
-exports.saveCategory = data => writeFile('dbs/category.json', JSON.stringify(data));
+exports.savePerson = data => writeFile('dbs/person.json', JSON.stringify(data));
 
-exports.getTransaction = async () => {
-  const data = await readFile('dbs/transaction.json');
+exports.getRequest = async () => {
+  const data = await readFile('dbs/request.json');
   return JSON.parse(data);
 };
 
-exports.saveTransaction = data => writeFile('dbs/transaction.json', JSON.stringify(data));
+exports.saveRequest = data => writeFile('dbs/request.json', JSON.stringify(data));

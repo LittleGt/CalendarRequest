@@ -1,8 +1,8 @@
-const { getCategory } = require('../utils/file');
+const { getPerson } = require('../utils/file');
 
-exports.createCategoryMapping = async () => {
-  const categories = await getCategory();
-  return categories.reduce((acc, el) => {
+exports.createPersonMapping = async () => {
+  const persons = await getPerson();
+  return persons.reduce((acc, el) => {
     if (!acc[el.id]) {
       acc[el.id] = el;
     }
