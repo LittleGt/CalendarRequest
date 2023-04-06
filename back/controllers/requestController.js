@@ -40,7 +40,6 @@ exports.getRequest = async (req, res, next) => {
 exports.createRequest = async (req, res, next) => {
   try {
     const { topic, date, personId } = req.body;
-
     if (!topic || typeof topic !== 'string' || !topic.trim())
       return res.status(400).json({ message: 'topic is required and must be a string' });
 
