@@ -1,0 +1,13 @@
+[
+  { "id": "64817558-2d7b-4af3-bf50-6e122dac4064", "name": "Auto", "type": "EXPENSE" },
+  { "id": "09839361-0ff1-482f-9f07-a0f7e3b1b4ac", "name": "Entertainment", "type": "EXPENSE" },
+  { "id": "a3431dae-4929-413a-bee4-b6f6107b5416", "name": "Food", "type": "EXPENSE" },
+  { "id": "e5dfc128-e049-465d-b4cc-c8bc86a8cc85", "name": "Shopping", "type": "EXPENSE" },
+  { "id": "cd75f0aa-d9d3-4c0d-92bd-28e28178b264", "name": "Transportation", "type": "EXPENSE" },
+  { "id": "8d7eff34-9e78-4a64-9916-d1c3fcb4698a", "name": "Utilities", "type": "EXPENSE" },
+  { "id": "c2c5f30a-1745-44df-9176-9b0ebd60f9ab", "name": "Others", "type": "EXPENSE" },
+  { "id": "40ed2e64-0ebf-478b-bd44-7d8f5ac79df6", "name": "Interest", "type": "INCOME" },
+  { "id": "6b58a270-cf94-4591-8d31-5ba92f3fecaa", "name": "Investment", "type": "INCOME" },
+  { "id": "f0388d5c-f4a6-4cd8-98d9-20269c3481da", "name": "Salary", "type": "INCOME" },
+  { "id": "93e23843-8af3-4b06-a6a0-9e57fb4c2ce4", "name": "Others", "type": "INCOME" }
+]
