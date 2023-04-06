@@ -21,7 +21,7 @@ exports.getPersons = async (req, res, next) => {
 
 exports.createPerson = async (req, res, next) => {
   try {
-    const { name} = req.body;
+    const { name } = req.body;
 
     if (!name || typeof name !== 'string' || !name.trim())
       return res.status(400).json({ message: 'name is required and must be a string' });
