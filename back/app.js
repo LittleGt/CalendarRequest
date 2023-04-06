@@ -4,6 +4,7 @@ const cors = require('cors');
 
 const personRoute = require('./routes/personRoute');
 const requestRoute = require('./routes/requestRoute');
+const topicRoute = require('./routes/topicRoute');
 
 const app = express();
 
@@ -12,6 +13,7 @@ app.use(express.json());
 
 app.use('/persons', personRoute);
 app.use('/requests', requestRoute);
+app.use('/topics', topicRoute);
 
 app.use((req, res) => {
   res.status(404).json({ message: 'resource not found on this server' });
