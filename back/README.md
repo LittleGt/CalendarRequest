@@ -1,3 +1,5 @@
+First run use [npm i]
+run server [npm run dev]
 ## API Document
 
 **API Endpoint:** localhost:8080
